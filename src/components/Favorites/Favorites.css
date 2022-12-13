@@ -17,6 +17,12 @@
     margin-bottom: 24px;
 }
 
+.favorites__list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+
 .favorites__save {
     border: none;
     background-color: #496DDB;
@@ -31,3 +37,6 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+.favorites__save:disabled {
+    background-color: #d3d3d3;
+  }
